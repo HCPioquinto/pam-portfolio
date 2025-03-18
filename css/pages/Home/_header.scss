@@ -1,0 +1,62 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.header {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  position: relative;
+  background: $light;
+  min-height: 1000px;
+
+  .flex {
+    display: flex;
+    position: absolute;
+    top: 20vh;
+    gap: 3vw;
+  }
+
+  .intro {
+    text-align: left;
+
+    h2{
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    h3{
+      font-size: 18px;
+    }
+  }
+
+  .icon {
+    width: 200px;
+    height: 200px ;
+
+    svg {
+        
+  animation: rotate 10s linear infinite;
+    }
+  }
+
+  h1 {
+    font-weight: bold;
+    width: 100vw;
+    text-align: left;
+    font-size: 15vw;
+    letter-spacing: 0.01em;
+    position: absolute;
+
+    bottom: 15vh;
+  }
+}
+
+

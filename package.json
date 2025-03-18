@@ -1,0 +1,6 @@
+{
+  "scripts": {
+    "sass-dev": "sass --watch --update --style=expanded css",
+    "sass-prod": "sass --no-source-map --style=compressed css"
+  }
+}
