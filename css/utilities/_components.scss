@@ -17,14 +17,14 @@
 
 	.row {
 		will-change: transform;
-		animation: scrolling 20s linear infinite;
+		animation: scrolling 35s linear infinite;
 		display: flex;
 		gap: 32px;
     padding-right: 32px;
 	}
 
 	.group.reverse .row {
-		animation: scrolling 20s linear infinite reverse;
+		animation: scrolling 35s linear infinite reverse;
 	}
 
 	img {

@@ -1,6 +1,9 @@
 @import "fonts";
 @import "components";
 
+$tabletUp: 769px;
+$tabletDown: 768px;
+
 ::-moz-selection {
     color: #fff;
     background: #535353;
